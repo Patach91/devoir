@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UFT-8">
+	<link href="bar.css" rel="stylesheet">
+		<title></title>
+	</head>
+<body>
+<img src="https://www.facebook.com/images/fb_icon_325x325.png">
+
+	<ul>
+		<li><a href="https://www.youtube.com/?hl=fr&gl=FR">YOUTUBE</a></li>
+		<li><a href="https://fr-fr.facebook.com/">FACEBOOK</a></li>
+		<li><a href="https://www.google.fr/">GOOGLE</a></li>
+		<li><a href="www.vimeo.com/‎">VIMEO</a></li>
+	</ul>
+
+		<p><span style="color: red">M</span>a première lettre dois être en rouge.</p>
+
+		<p>Dans monn paragraphe,<em>constitution</em> dois être en italique.</p>
+	
+		<p>Dans monn paragraphe,<em>constitution</em> dois être en italique.</p>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+		
+<img src="http://screenshots.en.sftcdn.net/en/scrn/3339000/3339450/image-05-535x535.png">	
+</body>
+</html>
