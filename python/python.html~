@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<link href="../home/patach/Documents/devoir/python/css/python.css" rel="stylesheet">
+		<title></title>
+	</head>
+<body>
+		<div id="entete">
+			<a id="one" href="https://onemonth.com">One Month</a>
+			<a id="python" href="https://onemonth.com">Python</a>
+			<a id="sign" href="https://onemonth.com/signin">Sign in</a>
+		</div>
+
+		<div id="corp">
+			<h1>BUILD YOUR FIRST PYTHON APP IN JUST ONE MONTH</h1>
+			<p id="c2">Have you ever wanted to build dynamic web apps?
+			<p id="c3">Is your idea the next Tumblr?</p>
+			<p id="c4">Do you want to learn Django?</p>
+			<p id="c5">Then One Month Python is for you!</p>
+			<form action="" class="formulaire">
+            <input class="champ" type="text" value="Get on the early access list"/>
+            <input class="bouton" type="button" value="Go" />
+            </form>
+		</div>
+
+		<div id="baspage">
+			<a>Copyright ©, Tout droit résèrvés ! ACHOURI Ilies 2015</a>
+		</div>
+</body>
+</html>
