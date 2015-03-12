@@ -1,0 +1,107 @@
+/*css principale 05/03/2015 youssef jean désiré salim and Ilies
+ *
+ */
+
+
+
+body {
+	font-style: italic;		/* style texte  */
+	font-family: Segoe, Verdana, sans-serif;	/*- police   */
+	background-color: #FFFFFF;
+	/*font-size: 24px;	/*taille texte  */
+	color: #AC8079;				/* couleur texte  */
+	font-weight: bold;			/* texte gras   */
+ 	background-image: url("../image/fd.jpg"); 
+	background-size:cover;
+
+}
+
+#entete{ 
+margin: 50px auto 0px auto;  /* marge sur la hauter 50px et une marge automatique de la gauche et de la droite  */
+width:75%; 		/* largeur 75%  */
+border:3px solid black;		/* bordure 3 px  solide en noir   */
+border-radius:40px 40px 0px 0px ;  /* bordure > contour   */
+padding:10px; 			/* marge intérieur*/
+text-align:center; 		/* alignement du texte  au centre  -*/
+font-size: 30px;		/* police a 30px  -*/
+font-weight:bold;		/* police en gras */
+}
+#entete2{
+	margin: 0px auto 25px auto;
+	width: 75%;
+	border: 3px solid black;
+	padding: 10px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#presentation{
+	margin: 25px auto 25px auto;
+	width: 75%;
+	border: 3px solid #FF8080;
+	border-radius: 10px;
+	padding: 10px;
+	overflow: hidden;
+/**
+marge 2auto a gauche et a droite 
+largeur 75%
+bordure > soli 3px > en rouge > arrondi
+
+*/
+}
+
+#presentation h3 {
+	text-align:center; /*centré*/ 
+	font-size:24px; 
+}
+#presentation img{
+	float:left;
+	margin: 25px;
+	}
+#presentation a {	
+	color: #000000; 
+	text-decoration:none; 
+	border:1px solid black;
+}
+#menu{
+	margin: 25px auto 25px auto;
+	width: 75%;
+	border: 3px solid #7887FF;
+	border-radius: 10px;
+	padding: 10px;
+	overflow: hidden;
+}
+#menu div{ 
+margin: 20px 5% auto 5% ; 
+width: 38%; 
+float:left; 
+border:2px solid black;
+border-radius:10px;
+padding:10px; 
+}
+#menu img {
+	float: left;
+	margin: 0px 15px 0px 5px;
+	border-radius: 10px;
+	border: 2px solid #CB9B56;
+	}
+	
+#menu a {	
+	color: #000000; 
+	text-decoration:none; 
+}
+#menu , #presentation, #entete,  #entete2, #footer {
+	background-color: rgba(249,249,249,0.49);
+	color: #000000;
+}
+
+#footer{ 
+text-align:center; 
+border-radius: 0px 0px 40px 40px  ; 
+margin: 25px auto 25px auto; 
+width:75%;
+border:3px solid black;
+border-radius:10px;
+padding:10px; 
+}
