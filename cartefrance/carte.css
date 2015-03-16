@@ -1,0 +1,14 @@
+body{
+	background-image:url("http://lecoqgourmand.e.l.f.unblog.fr/files/2014/05/02558674-photo-drapeau-francais-france.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+
+#titre{
+	margin-left: 250px;
+	font-size: 40px;
+}
+
+#map{
+	margin-left: 380px;
+}
