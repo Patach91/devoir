@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<link href="/home/patach/Documents/devoir/facebook/css/fb.css" rel="stylesheet">
+		<title>Facebook</title>
+	</head>
+<body>
+		<div id="entete">
+			<a id="fb">facebook</a>
+			<a id="adress" href="">Adresse électronique ou téléphone</a>
+			<a id="mdp" href="">Mot de passe</a>
+		
+		<form id="mettreadress" action="" class="formulaire">
+            	<input class="champ" type="text" value=""/>
+		<form id="mettremdp" action="" class="formulaire">
+            	<input class="champ" type="text" value=""/>
+            	<input id="connexion" class="bouton" type="button" value="Connexion" />
+            	</form>
+
+		<p id="boutonradio"><input type="checkbox" id="test1">
+   		<label for="test1">Garder ma session active</label>
+</p>
+		<a id="mdpo" href="">Mot de passe oublié?</a>
+		</div>
+
+		</div>
+
+
+		<div id="baspage">
+			<a>Copyright ©, Tout droit résèrvés ! ACHOURI Ilies 2015</a>
+		</div>
+</body>
+</html>

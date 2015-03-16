@@ -1,0 +1,71 @@
+body{
+}
+
+#entete{
+	background-color:#3A5795;
+	height:82px;
+	width:1288px;
+	border-bottom:2px solid black;
+}
+
+#fb{
+	font-size:32px;
+	color:white;
+	font-weight:bold;
+}
+
+#adress{
+	text-decoration:none;
+	color:white;
+	font-family:lucida grande tahoma verdana arialsans-serif;
+	font-size: 11px;
+	margin-left:530px;
+	
+}
+
+#mdp{
+	text-decoration:none;
+	color:white;
+	font-family:lucida grande tahoma verdana arialsans-serif;
+	font-size: 11px;
+	margin-left:10px;
+}
+
+#mettreadress{
+	margin-left:630px;
+	margin-left:530px;
+}
+
+#mettremdp{
+	
+}
+
+#connexion{
+	color:white;
+	background-color:#6495ED;
+	border:1px solid #6495ED;
+}
+
+#boutonradio{
+	color:white;
+	font-family:lucida grande tahoma verdana arialsans-serif;
+	font-size: 11px;
+}
+
+#mdpo{
+	text-decoration:none;
+	color:white;
+	font-family:lucida grande tahoma verdana arialsans-serif;
+	font-size: 11px;
+}
+
+#baspage{
+	font-family:fantasy;
+	font-style:italic;
+	font-size:8px;
+	bottom:0px;
+	margin: 0;
+	width: 700px ;
+	height: 20px ;
+	display: block ;
+}
