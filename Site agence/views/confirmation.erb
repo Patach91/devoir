@@ -1,0 +1,66 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>CONFIRMATION</h1>
+		</div>
+	</div>
+</div>
+
+<form action="/liste_inscription" method="post">
+<div class="contaire">
+	<div class="row">
+		<div class="col-md-12">
+			<h4>NOM</h4>
+				<input type="hidden" name="nom" value="<%= params[:nom]%>"/>
+					<%= params[:nom]%>
+		</div>
+	</div>
+</div>
+<div class="contaire">
+	<div class="row">
+		<div class="col-md-12">
+			<h4>PRÉNOM</h4>
+				<input type="hidden" name="prenom" value="<%= params[:prenom]%>"/>
+					<%= params[:prenom]%>
+		</div>
+	</div>
+</div>
+<div class="contaire">
+	<div class="row">
+		<div class="col-md-12">
+			<h4>ADRESSE</h4>
+				<input type="hidden" name="adress" value="<%= params[:adress]%>"/>
+					<%= params[:adress]%>
+		</div>
+	</div>
+</div>
+<div class="contaire">
+	<div class="row">
+		<div class="col-md-12">
+			<h4>PAYS</h4>
+				<input type="hidden" name="pays" value="<%= params[:pays]%>"/>
+					<%= params[:pays]%>
+		</div>
+	</div>
+</div>
+<div class="contaire">
+	<div class="row">
+		<div class="col-md-6">
+			<input type="submit" class="btn btn-primary btn-lg" value="ENVOYER">
+		</div>
+		<div class="col-md-6">
+			<a href="/index"><input type="button" class="btn btn-danger btn-lg" value="NE PAS ENVOYER"></a>
+		</div>
+	</div>
+</div>
+</form>
+<div class="contaire">
+	<div class="row">
+		<div class="col-md-6">
+			<a href="/index"><input type="button" class="btn btn-primary btn-lg" value="ACCUEIL"></a>
+		</div>
+		<div class="col-md-6">
+			<a href="/liste_inscription"><input type="button" class="btn btn-primary btn-lg" value="VOIR LES INSCRITS"></a>
+		</div>
+	</div>
+</div>
