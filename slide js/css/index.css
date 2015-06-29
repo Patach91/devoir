@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+} 
+
+h1{
+	font-size: 50px;
+	text-align:center;
+	color:white;
+}
+  
+#slide{ 
+	width:490px;
+	height:490px;
+    border: 0.8em black solid;
+    padding: 3px;
+    margin-left: 400px;
+}
+
+#baspage{
+	background-color: white;
+	font-family:fantasy;
+	font-style:italic;
+	font-size:16px;
+	bottom:0px;
+	display: block;
+	color:black;
+	text-align:center;
+}
