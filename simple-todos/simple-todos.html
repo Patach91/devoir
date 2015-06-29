@@ -1,0 +1,30 @@
+<!-- simple-todos.html -->
+<head>
+  <title>Liste de se que j'ai à faire</title>
+</head>
+<body>
+  <div class="container">
+<header>
+  <h1>Mes tâches à faire</h1>
+  <!-- add a form below the h1 -->
+  <form class="new-task">
+    <input type="text" name="text" placeholder="Nouvelle tâche" />
+  </form>
+</header>
+
+    <ul>
+      {{#each tasks}}
+        {{> task}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+
+<!-- replace the existing task template with this code -->
+<template name="task">
+  <li class="{{#if checked}}checked{{/if}}">
+    <button class="delete">&times;</button>
+
+    <span class="text">{{text}}</span>
+  </li>
+</template>
