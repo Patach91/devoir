@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1426008518 source:/home/patach/Documents/Plus ou moins(jeux en c)/main.c
-	<stdio.h>
-	<stdlib.h>
-	<time.h>
-
