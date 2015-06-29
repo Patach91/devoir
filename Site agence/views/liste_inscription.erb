@@ -1,0 +1,30 @@
+<div class="contaire">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>LISTE DES PARTICIPANTS</h1>
+		</div>
+
+	<% @datas.each do |d|%>
+		<div class="col-md-3">
+			<%= d.nom%>
+		</div>
+		<div class="col-md-3">
+			<%= d.prenom%>
+		</div>
+		<div class="col-md-3">
+			<%= d.adress%>
+		</div>
+		<div class="col-md-3">
+			<%= d.pays%>
+		</div>
+	<% end %>
+
+	
+		<div class="col-md-10">
+		</div>
+		<div class="col-md-2">
+			<a href="/index"><input type="button" class="btn btn-primary btn-lg" value="ACCUEIL"></a>
+		</div>
+
+	</div>
+</div>
